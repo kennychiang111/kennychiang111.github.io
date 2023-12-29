@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     display: grid;
-    place-items: center;
+    /*place-items: center;*/
     min-height: 80vh;
 }
 
@@ -62,7 +62,6 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 60px; /* Adjust this value based on your preference */
 }
 
 .hero h2 {
