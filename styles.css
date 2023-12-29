@@ -76,7 +76,7 @@ section {
 
 #about, #projects, #experience {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
     display: grid;
     place-items: center;
 }
