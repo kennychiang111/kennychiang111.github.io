@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     display: grid;
-    /*place-items: center;*/
+    place-items: center;
     min-height: 80vh;
 }
 
@@ -50,7 +50,7 @@ nav a:hover {
 }
 
 section {
-    padding-top: 80px;
+    padding-top: 40px;
     text-align: center;
 }
 
