@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    min-height: 80vh;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.25em;
+    margin-bottom: 1em;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 1em 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #007BFF; /* Change the color to your desired hover color */
+}
+
+section {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.hero {
+    padding: 5em 0;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#about, #projects, #work {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: grid;
+    place-items: center;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #007BFF; /* Change the color to your desired hover color */
+}
+
+.right-align {
+    float: right;
+}
+
+/* Additional styles for links */
+a {
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Ensure content doesn't overlap with the fixed footer */
+body {
+    padding-bottom: 60px; /* Adjust this value based on the height of your footer */
+}
+
+.project {
+    margin-bottom: 20px;
+    text-align: left; /* Set text alignment to left */
+}
