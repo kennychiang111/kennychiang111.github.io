@@ -119,8 +119,3 @@ a:hover {
 body {
     padding-bottom: 60px; /* Adjust this value based on the height of your footer */
 }
-
-.project {
-    margin-bottom: 20px;
-    text-align: left; /* Set text alignment to left */
-}
