@@ -117,7 +117,7 @@ a:hover {
 
 /* Ensure content doesn't overlap with the fixed footer */
 body {
-    padding-bottom: 60px; /* Adjust this value based on the height of your footer */
+    padding-bottom: 20px; /* Adjust this value based on the height of your footer */
 }
 
 .project {
