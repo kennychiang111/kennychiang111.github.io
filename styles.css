@@ -75,8 +75,8 @@ section {
 }
 
 #about, #projects, #experience {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: grid;
     place-items: center;
 }
