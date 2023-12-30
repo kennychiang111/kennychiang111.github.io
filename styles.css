@@ -4,7 +4,7 @@ body {
     padding: 0;
     display: grid;
     place-items: center;
-    min-height: 60vh;
+    min-height: 80vh;
 }
 
 p {
@@ -50,7 +50,7 @@ nav a:hover {
 }
 
 section {
-    padding-top: 60px;
+    padding-top: 80px;
     text-align: center;
 }
 
